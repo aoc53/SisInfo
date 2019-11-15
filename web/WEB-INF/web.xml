@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app version="2.5" xmlns="http://java.sun.com/xml/ns/javaee"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/webapp_2_5.xsd">
+<description></description>
+<display-name>helloWorld</display-name>
+<servlet>
+    <display-name>Demo</display-name>
+    <servlet-name>DemoController</servlet-name>
+    <servlet-class>controller.demo.DemoClass</servlet-class>
+</servlet>
+<servlet-mapping>
+    <servlet-name>DemoController</servlet-name>
+    <url-pattern>/demoList</url-pattern>
+</servlet-mapping>
+</web-app>
